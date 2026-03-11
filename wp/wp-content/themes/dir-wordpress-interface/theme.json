@@ -1,0 +1,131 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+
+  "styleVariations": [
+    {
+      "name": "black-button",
+      "title": "Black Button",
+      "description": "Dark-grey background, white text",
+      "styles": {
+        "blocks": {
+          "core/button": {
+            "color": {
+              "background": "var(--dark-grey)",
+              "text": "var(--white)"
+            },
+            "border": {
+              "width": "1px",
+              "style": "solid",
+              "color": "currentColor"
+            },
+            "spacing": {
+              "padding": "1.44rem 1em"
+            },
+            "typography": {
+              "fontSize": "1.6rem",
+              "lineHeight": "1.2"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "white-button",
+      "title": "White Button",
+      "description": "White background, dark-grey text",
+      "styles": {
+        "blocks": {
+          "core/button": {
+            "color": {
+              "background": "var(--white)",
+              "text": "var(--dark-grey)"
+            },
+            "border": {
+              "width": "1px",
+              "style": "solid",
+              "color": "currentColor"
+            },
+            "spacing": {
+              "padding": "1.44rem 1em"
+            },
+            "typography": {
+              "fontSize": "1.6rem",
+              "lineHeight": "1.2"
+            }
+          }
+        }
+      }
+    }
+  ],
+
+  "settings": {
+    "layout": {
+      "contentSize": "1920px",
+      "wideSize": "1920px"
+    },
+    "color": {
+      "custom": false,
+      "customGradient": false,
+      "palette": [
+        { "name": "Black",      "slug": "black",      "color": "#000000" },
+        { "name": "White",      "slug": "white",      "color": "#ffffff" },
+        { "name": "Dark Grey",  "slug": "dark-grey",  "color": "#333333" },
+		{ "name": "Medium Grey","slug": "medium-grey","color": "#888888" },
+		{ "name": "Light grey", "slug": "light-grey", "color": "#d9d9d9" },
+        { "name": "Blue",       "slug": "blue",       "color": "#0000ff" },
+		{ "name": "Blue EU",    "slug": "europe",     "color": "#1266cd" },
+        { "name": "Accent",     "slug": "accent",     "color": "#eeff00" }
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "customFontSize": true,
+      "customFontFamily": true,
+      "fontFamilies": [
+        { "name": "Instrument Serif", "slug": "instrument-serif", "fontFamily": "\"Instrument Serif\", serif" },
+        { "name": "Instrument Sans",  "slug": "instrument-sans",  "fontFamily": "\"Instrument Sans\", sans-serif" },
+        { "name": "IBM Plex Mono",    "slug": "plex-mono",        "fontFamily": "\"IBM Plex Mono\", monospace" }
+      ],
+      "fontSizes": [
+        { "name": "Small",  "slug": "small",  "size": "1.4rem" },
+        { "name": "Normal", "slug": "normal", "size": "2rem"   },
+        { "name": "Large",  "slug": "large",  "size": "3.6rem" },
+        { "name": "Huge",   "slug": "huge",   "size": "clamp(4.5rem, 12.5vw, 24rem)" }
+      ]
+    }
+  },
+
+  "styles": {
+    "root": {
+      "color": {
+        "text": "var(--black)",
+        "background": "var(--white)"
+      },
+      "typography": {
+        "fontFamily": "\"Instrument Sans\", sans-serif"
+      }
+    },
+    "elements": {
+      "button": {
+        "border": {
+          "width": "1px",
+          "style": "solid",
+          "color": "currentColor",
+          "border": "0"
+        },
+        "color": {
+          "background": "var(--accent)",
+          "text": "var(--dark-grey)"
+        },
+        "spacing": {
+          "padding": "1.44rem 1em"
+        },
+        "typography": {
+          "fontSize": "1.6rem",
+          "lineHeight": "1.2"
+        }
+      }
+    }
+  }
+}

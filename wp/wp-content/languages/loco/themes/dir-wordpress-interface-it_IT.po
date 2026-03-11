@@ -1,0 +1,567 @@
+# Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"Last-Translator: \n"
+"Language-Team: Italiano\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-17 16:34+0000\n"
+"PO-Revision-Date: 2025-10-17 16:35+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: _s\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.2.29"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#. Name of the template
+#: about.php:2
+msgid "about"
+msgstr ""
+
+#: functions.php:566
+msgid "Accent"
+msgstr ""
+
+#: functions.php:572
+msgid "Accent Full"
+msgstr ""
+
+#: inc/sync.php:87
+msgid "All"
+msgstr ""
+
+#: single-item.php:256
+msgid "Allegati"
+msgstr ""
+
+#: single-item.php:255
+msgid "Approfondimento"
+msgstr ""
+
+#: single-item.php:241
+msgid "Autore"
+msgstr ""
+
+#: functions.php:645
+msgid "AUTORE: "
+msgstr ""
+
+#: single-item.php:263
+msgid "Bibliografia"
+msgstr ""
+
+#: functions.php:581
+msgid "Black"
+msgstr ""
+
+#: functions.php:587
+msgid "Black Full"
+msgstr ""
+
+#: functions.php:953
+msgid "Caricamento…"
+msgstr ""
+
+#: functions.php:1053
+msgid "Cerca opera…"
+msgstr ""
+
+#: single-item.php:238
+msgid "Codice ICCD"
+msgstr ""
+
+#: functions.php:668
+msgid "CODICE ICCD: "
+msgstr ""
+
+#: single-item.php:239
+msgid "Codice inventario"
+msgstr ""
+
+#: functions.php:675
+msgid "CODICE MUSEO: "
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Black"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Blue"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Blue EU"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Dark Grey"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Light grey"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Medium Grey"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: single-item.php:247
+msgid "Contesto culturale"
+msgstr ""
+
+#: functions.php:706
+msgid "CONTESTO CULTURALE: "
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/sync-table.php:277
+msgid "Delete"
+msgstr ""
+
+#. Description of the theme
+msgid "Description"
+msgstr ""
+
+#: single-item.php:254
+msgid "Descrizione"
+msgstr ""
+
+#: single-item.php:237
+msgid "Descrizione breve"
+msgstr ""
+
+#: functions.php:777
+msgid "Descrizione non disponibile."
+msgstr ""
+
+#: single-item.php:244
+msgid "Dettagli periodo storico"
+msgstr ""
+
+#: functions.php:698
+msgid "DIMENSIONI: "
+msgstr ""
+
+#. Name of the theme
+msgid "DIR - WordPress interface"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: about.php:41 template-parts/content-page.php:39 inc/template-tags.php:100
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: functions.php:1275
+msgid "Esplora il percorso"
+msgstr ""
+
+#: single-item.php:261
+msgid "Fanno parte di questo manufatto"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Instrument Sans"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Instrument Serif"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: functions.php:999
+msgid "Griglia"
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://underscores.me/"
+msgstr ""
+
+#: inc/sync-table.php:276
+msgid "Import / Sync"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/sync-table.php:16
+msgid "Item"
+msgstr ""
+
+#: functions.php:1388 functions.php:1417
+msgid "Item non disponibile"
+msgstr ""
+
+#: inc/sync-table.php:17
+msgid "Items"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: functions.php:1001
+msgid "Lista"
+msgstr ""
+
+#: functions.php:472
+msgid "Login"
+msgstr ""
+
+#: single-item.php:257
+msgid "Luogo di conservazione / posizione"
+msgstr ""
+
+#: single-item.php:245
+msgid "Luogo di produzione"
+msgstr ""
+
+#: single-item.php:249
+msgid "Materiale"
+msgstr ""
+
+#: functions.php:691
+msgid "MATERIALI: "
+msgstr ""
+
+#: single-item.php:252
+msgid "Misure"
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#: single-item.php:265
+msgid "Mostre"
+msgstr ""
+
+#: single-item.php:258
+msgid "Museo"
+msgstr ""
+
+#: functions.php:662
+msgid "MUSEO: "
+msgstr ""
+
+#: inc/sync-table.php:226
+msgid "Name"
+msgstr ""
+
+#: functions.php:1341
+msgid "Nessun percorso trovato."
+msgstr ""
+
+#: functions.php:1188
+msgid "Nessuna opera trovata."
+msgstr ""
+
+#: single.php:24
+msgid "Next:"
+msgstr ""
+
+#: inc/sync-table.php:157
+msgid "No item avaliable."
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/sync.php:38
+msgid "Number of items per page:"
+msgstr ""
+
+#: single-item.php:268
+msgid "Oggetti correlati"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: about.php:27 template-parts/content-page.php:25
+#: template-parts/content.php:53
+msgid "Pages:"
+msgstr ""
+
+#: single-item.php:243
+msgid "Periodo storico"
+msgstr ""
+
+#: functions.php:683
+msgid "PERIODO: "
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: single.php:23
+msgid "Previous:"
+msgstr ""
+
+#: functions.php:52
+msgid "Primary"
+msgstr ""
+
+#: header.php:42
+msgid "Primary Menu"
+msgstr ""
+
+#: single-item.php:260
+msgid "Questo manufatto fa parte di"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: functions.php:353
+msgid "Register"
+msgstr ""
+
+#: functions.php:843
+msgid "Rimuovi dalla mia collezione"
+msgstr ""
+
+#: functions.php:839
+msgid "Salva nella collezione"
+msgstr ""
+
+#: functions.php:830
+msgid "Scopri l'opera"
+msgstr ""
+
+#. %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:1000
+msgid "Slider"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: single-item.php:242
+msgid "Specifiche di attribuzione"
+msgstr ""
+
+#: single-item.php:251
+msgid "Specifiche di lavorazione"
+msgstr ""
+
+#: single-item.php:246
+msgid "Specifiche sul luogo di produzione"
+msgstr ""
+
+#: inc/sync-table.php:227
+msgid "Status"
+msgstr ""
+
+#: inc/sync.php:24 inc/sync.php:25 inc/sync.php:82
+msgid "Sync"
+msgstr ""
+
+#: inc/sync-table.php:78
+msgid "synced"
+msgstr ""
+
+#: single-item.php:267
+msgid "Tag"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: single-item.php:250
+msgid "Tecnica"
+msgstr ""
+
+#: inc/sync-table.php:92
+msgid "to delete"
+msgstr ""
+
+#: inc/sync-table.php:83
+msgid "to import"
+msgstr ""
+
+#: inc/sync-table.php:75
+msgid "to sync"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:48
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: functions.php:1027
+msgid "Tutte le tecniche"
+msgstr ""
+
+#: functions.php:1040
+msgid "Tutti gli Autori"
+msgstr ""
+
+#: functions.php:1013
+msgid "Tutti i luoghi di produzione"
+msgstr ""
+
+#: functions.php:1020
+msgid "Tutti i materiali"
+msgstr ""
+
+#: functions.php:1033
+msgid "Tutti i Musei"
+msgstr ""
+
+#: functions.php:1006
+msgid "Tutti i periodi"
+msgstr ""
+
+#: functions.php:1047
+msgid "Tutti i Tag"
+msgstr ""
+
+#. Author of the theme
+msgid "Underscores.me"
+msgstr ""
+
+#: functions.php:596
+msgid "White"
+msgstr ""
+
+#: functions.php:602
+msgid "White Full"
+msgstr ""
+
+#: functions.php:307
+msgid "You are already registered."
+msgstr ""

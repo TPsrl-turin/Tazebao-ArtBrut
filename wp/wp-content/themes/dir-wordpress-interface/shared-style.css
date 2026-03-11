@@ -1,0 +1,216 @@
+html {
+	font-size: 10px;
+}
+
+/* 1.3 CSS Variables ------------------------------------------ */
+:root {
+	--black: #000;
+	--white: #fff;
+	--dark-grey: #333;
+	--medium-grey: #767676;
+	--light-grey: #d9d9d9;
+	--blue: #00f;
+	--accent: #ef0;
+	--serif: "Instrument Serif", serif;
+	--sans-serif: "Instrument Sans", sans-serif;
+	--mono: "IBM Plex Mono", monospace;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #404040;
+	font-family: var(--sans-serif);
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+section,
+.section{
+	margin-block:5rem;
+	padding-block:5rem;
+	&.has-background{
+		margin-block:0;
+		padding-block:10rem;
+	}
+	&.no-offset{
+		margin-block:0;
+		padding-block:0;
+	}
+	&.no-offset-top {
+		padding-top: 0;
+	}
+}
+.site-main:not(:has(section))
+{
+	padding-block:5rem;
+}
+.site-main:has(.padding-block) h1{
+	padding-top: 5rem;
+}
+
+.small-column-container {
+	max-width: 60rem!important;
+	margin-inline: auto;
+}
+
+.single-path section{
+	margin:0;
+	padding:0;
+}
+
+@media (min-width:1024px){
+	section,
+	.section{
+		margin-block:10rem;
+		padding-block:10rem;
+		&.has-background{
+			margin-block:0;
+			padding-block:20rem;
+		}
+		&.no-offset{
+			margin-block:0;
+			padding-block:0;
+		}
+		&.no-offset-top {
+			padding-top: 0;
+		}
+	}
+	
+	.site-main:not(:has(section))
+	{
+		padding-block:10rem;
+	}
+
+	.site-main:has(.padding-block) h1{
+		padding-top: 10rem;
+	}
+	
+	.single-path section{
+		margin:0;
+		padding:0;
+	}
+}
+
+figure,
+.wp-block-image{
+	margin:0!important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	margin-top:0;
+	margin-bottom: 1rem;
+	font-family: var(--serif);
+}
+
+h1,
+.h1{
+	font-size: clamp(4.5rem, 6.25vw, 12rem);
+	font-weight:400;
+	line-height: 1;
+}
+
+h1.single-item-title {
+	font-size: clamp(4.5rem, 3vw, 12rem);
+}
+
+h2,
+.h2{
+	font-size: 4rem;
+	font-weight:400;
+	line-height: 1;
+}
+
+h3, .h3 {
+	font-size: 2.4rem;
+	font-family: var(--sans-serif);
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+h4,
+h5,
+h6 {
+	font-size: 2rem;
+	font-family: var(--sans-serif);
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+
+p {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+details {
+	border-bottom: 1px solid currentcolor;
+}
+
+details > * {
+	margin-block: 1rem!important;
+}
+
+details > figure {
+	border-radius: .3rem;
+	overflow: hidden;
+}
+
+details > summary {
+	font-family: var(--mono);
+	margin-block: 0!important;
+	padding: 1rem;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+
+details > summary:hover,
+details > summary:focus {
+	background-color: var(--blue);
+	color: var(--white);
+	border-color: var(--white);
+}
+
+.single-item-content details{
+	border:none;
+}
+
+
+.has-large-font-size {
+	line-height: 1.2;
+}
+
+.has-huge-font-size {
+	font-family: var(--wp--preset--font-family--instrument-serif)!important;
+	line-height:.9;
+	font-size: clamp(4.5rem, 12.5vw, 24rem);
+	font-weight:400!important;
+	margin: 0 0 0.1666em; 
+}
+
+:where(.wp-block-button__link) {
+    border-radius: 0!important;
+    box-shadow: none;
+    padding: 1.44rem 1rem!important;
+    text-decoration: none;
+}
+
+:root :where(.wp-block-image figcaption),
+figure figcaption {
+	text-align: left!important;
+	font-size: 1.4rem!important;
+	line-height: 1.5;
+	margin-block: 1rem!important;
+}

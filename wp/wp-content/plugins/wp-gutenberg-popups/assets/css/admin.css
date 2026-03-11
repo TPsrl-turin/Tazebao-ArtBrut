@@ -1,0 +1,15 @@
+.wgp-meta-box {
+    padding: 10px;
+}
+.wgp-flex-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.wgp-flex-row p {
+    flex: 1;
+    min-width: 100px;
+}
+.wgp-flex-row input {
+    width: 100%;
+}

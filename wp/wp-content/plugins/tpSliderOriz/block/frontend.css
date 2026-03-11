@@ -1,0 +1,27 @@
+.wp-block-group-is-layout-constrained.alignfull .tp-slider-oriz{
+    max-width: unset;
+}
+
+.tp-slider-oriz .splide__slide {
+  min-width: 10px; /* previene buchi iniziali visivi */
+}
+
+.tp-slider-oriz img {
+  height: 50vh;
+  object-fit: cover;
+  display: block;
+  width: auto;
+}
+
+@media (max-width: 782px) {
+  .tp-slider-oriz img {
+    height: 30vh;
+  }
+}
+
+.tp-slider-oriz figcaption {
+  text-align: left;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  position: relative;
+}
